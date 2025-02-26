@@ -10,7 +10,7 @@ I'm an **Electronics & Embedded Systems Enthusiast** with hands-on experience in
 ---
 
 ## 💡 Key Skills  
-✔ **Programming:** C, C++, Python, Java, Linux Scripting  
+✔ **Programming:** C, Python, Linux Scripting  
 ✔ **Embedded Systems & IoT:** Microcontrollers, Sensors, Communication Protocols  
 ✔ **Linux & System Programming:** Shell Scripting, Process Management  
 ✔ **Soft Skills:** Team Collaboration, Effective Communication, Time Management  
