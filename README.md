@@ -1,55 +1,15 @@
-# 👋 Hi, I'm Mubendiran K  
+# 💫 About Me:
+I'm an Electronics & Embedded Systems Enthusiast with hands-on experience in Embedded Programming, IoT, and Linux Scripting. Passionate about microcontrollers, sensors, and real-time systems, I enjoy working on innovative solutions that bridge hardware and software.<br><br>🔹 Quick Learner | Problem Solver | Team Player<br>🔹 Strong ability to organize, plan, and execute tasks efficiently<br>🔹 Enthusiastic about exploring new technologies and challenges<br><br>
 
-## 🚀 About Me  
-I'm an **Electronics & Embedded Systems Enthusiast** with hands-on experience in **Embedded Programming, IoT, and Linux Scripting**. Passionate about **microcontrollers, sensors, and real-time systems**, I enjoy working on innovative solutions that bridge hardware and software.  
 
-🔹 **Quick Learner** | **Problem Solver** | **Team Player**  
-🔹 Strong ability to **organize, plan, and execute tasks efficiently**  
-🔹 Enthusiastic about **exploring new technologies and challenges**  
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/linkedin.com/in/mubendiran-k) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mubemubendiran@gmail.com) 
 
----
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=MUBENDIRAN&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 💡 Key Skills  
-✔ **Programming:** C, Python, Linux Scripting  
-✔ **Embedded Systems & IoT:** Microcontrollers, Sensors, Communication Protocols  
-✔ **Linux & System Programming:** Shell Scripting, Process Management  
-✔ **Soft Skills:** Team Collaboration, Effective Communication, Time Management  
-
----
-
-## 📌 Featured Project: **Shop Sense**  
-**An RFID-based navigation system for visually impaired individuals**  
-
-🔹 **Project Overview:**  
-Developed a **smart assistive shopping system** leveraging **RFID technology** to provide real-time product information for visually impaired individuals. The system enhances independent shopping experiences by integrating **RFID tags, microcontrollers, and an audio interface** for seamless navigation.  
-
-🔹 **Key Features:**  
-✔ RFID-based product identification  
-✔ Real-time audio guidance for users  
-✔ Tactile paving for easy in-store navigation  
-✔ Wireless communication via Wi-Fi/Bluetooth  
-✔ Designed for accessibility and inclusivity  
-
-🔹 **Technology Stack:**  
-- **Programming:** Embedded C, Python  
-- **Hardware:** Microcontrollers, RFID Modules, Sensors  
-- **Communication:** Wi-Fi, Bluetooth  
-
-🔹 **Impact:**  
-✅ Enables visually impaired individuals to shop independently  
-✅ Improves accessibility and inclusivity in retail environments  
-✅ Aligns with the mission of **building assistive technology for a better future**  
-
----
-
-## 📫 Let's Connect  
-🔗 **Portfolio:** [mubendiran-k-99hy8ch.gamma.site](https://mubendiran-k-99hy8ch.gamma.site)  
-🔗 **LinkedIn:** [linkedin.com/in/mubendiran-k](https://www.linkedin.com/in/mubendiran-k)  
-🔗 **GitHub:** [github.com/MUBENDIRAN](https://github.com/MUBENDIRAN)  
-
-📩 **Email:** mubendiran@gmail.com  
-📞 **Contact:** +91 8946000212  
-
----
-
-⭐ **Open to opportunities in Embedded Systems, IoT, and Linux Scripting!** 🚀
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
