@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm an Electronics & Embedded Systems Enthusiast with hands-on experience in Embedded Programming, IoT, and Linux Scripting. Passionate about microcontrollers, sensors, and real-time systems, I enjoy working on innovative solutions that bridge hardware and software.<br><br>🔹 Quick Learner | Problem Solver | Team Player<br>🔹 Strong ability to organize, plan, and execute tasks efficiently<br>🔹 Enthusiastic about exploring new technologies and challenges<br><br>
+Electronics & Embedded Systems Enthusiast with hands-on experience in Embedded Programming, and Linux Scripting. Passionate about microcontrollers, sensors, and real-time systems, I enjoy working on innovative solutions that bridge hardware and software.<br><br>
 
 
 ## 🌐 Socials:
