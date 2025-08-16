@@ -1,15 +1,61 @@
-# 💫 About Me:
-Electronics & Embedded Systems Enthusiast with hands-on experience in Embedded Programming, and Linux Scripting. Passionate about microcontrollers, sensors, and real-time systems, I enjoy working on innovative solutions that bridge hardware and software.<br><br>
+<h1 align="center">
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mubendiran-k) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mubemubendiran@gmail.com) [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://mubendiran-k-99hy8ch.gamma.site)
+<!-- Linux Terminal Style Intro -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=1E90FF&center=true&vCenter=true&width=650&lines=$+Hiii%2C+I'm+Mubendiran+K_|" alt="Linux Terminal Typing" />
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+</h1>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=MUBENDIRAN&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<h2>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=FFD700&vCenter=true&width=400&lines=💫+About+Me" />
+</h2>
+
+🔹 **Electronics & Embedded Systems Enthusiast** with hands-on experience in **Embedded Programming** and **Linux Scripting**.  
+🔹 Passionate about **Microcontrollers, Sensors, and Real-time Systems**, I love building solutions that **bridge hardware and software**.  
+
+---
+
+<h2>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=FF5733&vCenter=true&width=500&lines=🌐+Connect+With+Me" />
+</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/mubendiran-k">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:mubemubendiran@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://mubendiran-k-99hy8ch.gamma.site">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<h2>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=1E90FF&vCenter=true&width=400&lines=💻+Tech+Stack" />
+</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,python,bash,aws,arduino&theme=dark" />
+</p>
+
+---
+
+<h2>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=32CD32&vCenter=true&width=400&lines=📊+GitHub+Stats" />
+</h2>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" height="180em" />
+  <img src="https://nirzak-streak-stats.vercel.app/?user=MUBENDIRAN&theme=tokyonight&hide_border=false" height="180em" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="180em" />
+</p>
+
+---
+
