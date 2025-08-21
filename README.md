@@ -30,7 +30,14 @@
   <a href="https://mubendiran-k-99hy8ch.gamma.site">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
+  <a href="https://drive.google.com/drive/folders/1HW-DbJDAf5HpGVUOArzzw--NFhKkdqkl">
+    <img src="https://img.shields.io/badge/Certifications-4CAF50?style=for-the-badge&logo=GoogleDrive&logoColor=white" />
+  </a>
+  <a href="https://drive.google.com/file/d/1lM-RSM2mW7YKTG6mUz300E86aMC0_-p0/view?usp=drivesdk">
+    <img src="https://img.shields.io/badge/Resume-FF4500?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white" />
+  </a>
 </p>
+
 
 ---
 
