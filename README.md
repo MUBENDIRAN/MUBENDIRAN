@@ -7,18 +7,14 @@
 
 ---
 
-<h2>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=FFD700&vCenter=true&width=400&lines=💫+About+Me" />
-</h2>
+<h2 align="left">𝗔𝗕𝗢𝗨𝗧 𝗠𝗘</h2>
 
 🔹 **Electronics & Embedded Systems Enthusiast** with hands-on experience in **Embedded Programming** and **Linux Scripting**.  
 🔹 Passionate about **Microcontrollers, Sensors, and Real-time Systems**, I love building solutions that **bridge hardware and software**.  
 
 ---
 
-<h2>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=FF5733&vCenter=true&width=500&lines=🌐+Connect+With+Me" />
-</h2>
+<h2 align="left">🌐 𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗪𝗜𝗧𝗛 𝗠𝗘</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mubendiran-k">
@@ -38,12 +34,9 @@
   </a>
 </p>
 
-
 ---
 
-<h2>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=1E90FF&vCenter=true&width=400&lines=💻+Tech+Stack" />
-</h2>
+<h2 align="left">💻 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,python,bash,aws,arduino&theme=dark" />
@@ -51,9 +44,7 @@
 
 ---
 
-<h2>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=32CD32&vCenter=true&width=400&lines=📊+GitHub+Stats" />
-</h2>
+<h2 align="left">📊 𝗚𝗜𝗧𝗛𝗨𝗕 𝗦𝗧𝗔𝗧𝗦</h2>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" height="180em" />
@@ -65,4 +56,3 @@
 </p>
 
 ---
-
