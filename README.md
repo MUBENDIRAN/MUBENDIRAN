@@ -32,6 +32,9 @@
   <a href="https://drive.google.com/file/d/1lM-RSM2mW7YKTG6mUz300E86aMC0_-p0/view?usp=drivesdk">
     <img src="https://img.shields.io/badge/Resume-FF4500?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white" />
   </a>
+  <a href="https://www.youtube.com/@MUBENDIRANK">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  </a>
 </p>
 
 ---
@@ -54,5 +57,3 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="180em" />
 </p>
-
----
