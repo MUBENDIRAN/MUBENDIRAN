@@ -1,89 +1,1048 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mubendiran K </title>
+    <!-- Favicon -->
+<link rel="icon" type="image/png" href="images/mube-favi.png">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/12.1.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/12.1.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/12.1.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #1e40af 30%, #3b82f6 60%, #60a5fa 100%);
+            --secondary-gradient: linear-gradient(135deg, #1e40af 0%, #3730a3 50%, #312e81 100%);
+            --accent-blue: #3b82f6;
+        }
+
+   .gradient-bg {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 40%, #1e3a8a 100%);
+    background-size: cover;
+    animation: none !important;
+}
+
+
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            25% { background-position: 100% 0%; }
+            50% { background-position: 100% 100%; }
+            75% { background-position: 0% 100%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .glass-card {
+            background: rgba(59, 130, 246, 0.05);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(59, 130, 246, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .glass-card:hover {
+            background: rgba(59, 130, 246, 0.08);
+            border: 1px solid rgba(59, 130, 246, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .typing-animation {
+    border-right: 2px solid #3b82f6;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+    color: #ffffff; /* solid white text for visibility */
+    background: none;
+    -webkit-background-clip: initial;
+    -webkit-text-fill-color: initial;
+    background-clip: initial;
+}
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: #3b82f6 }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from { 
+                opacity: 0; 
+                transform: translateY(40px);
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-left {
+            animation: fadeInLeft 1s ease-out;
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .fade-in-right {
+            animation: fadeInRight 1s ease-out;
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .floating-btn {
+            animation: gentle-float 4s ease-in-out infinite;
+            transition: all 0.3s ease;
+        }
+
+        @keyframes gentle-float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-3px); }
+        }
+
+        .floating-btn:hover {
+            transform: translateY(-3px) scale(1.02);
+        }
+
+        /* Linux and Cloud themed emoji animations */
+        .emoji-float {
+            position: absolute;
+            font-size: 1.5rem;
+            opacity: 0.3;
+            animation: emojiFloat 12s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        @media (max-width: 768px) {
+            .emoji-float {
+                font-size: 1.2rem;
+            }
+        }
+
+        .emoji-float:nth-child(1) { animation-delay: 0s; top: 10%; left: 5%; }
+        .emoji-float:nth-child(2) { animation-delay: 2s; top: 20%; right: 10%; }
+        .emoji-float:nth-child(3) { animation-delay: 4s; bottom: 30%; left: 8%; }
+        .emoji-float:nth-child(4) { animation-delay: 6s; bottom: 15%; right: 15%; }
+        .emoji-float:nth-child(5) { animation-delay: 8s; top: 50%; left: 3%; }
+        .emoji-float:nth-child(6) { animation-delay: 10s; top: 60%; right: 5%; }
+
+        @keyframes emojiFloat {
+            0%, 100% { 
+                transform: translateY(0px) translateX(0px) rotate(0deg); 
+                opacity: 0.2;
+            }
+            25% { 
+                transform: translateY(-20px) translateX(10px) rotate(5deg); 
+                opacity: 0.4;
+            }
+            50% { 
+                transform: translateY(-10px) translateX(-5px) rotate(-3deg); 
+                opacity: 0.3;
+            }
+            75% { 
+                transform: translateY(-30px) translateX(15px) rotate(8deg); 
+                opacity: 0.5;
+            }
+        }
+
+        /* Terminal style elements */
+        .terminal-element {
+            background: rgba(0, 0, 0, 0.6);
+            border-left: 3px solid #22c55e;
+            font-family: 'Courier New', monospace;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: #22c55e;
+            animation: terminalPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes terminalPulse {
+            0%, 100% { border-left-color: #22c55e; opacity: 0.7; }
+            50% { border-left-color: #16a34a; opacity: 1; }
+        }
+
+        /* Cloud themed elements */
+        .cloud-element {
+            color: #60a5fa;
+            animation: cloudDrift 8s ease-in-out infinite;
+        
+
+        @keyframes cloudDrift {
+            0%, 100% { 
+                transform: translateX(0px) translateY(0px); 
+                opacity: 0.6;
+            }
+            50% { 
+                transform: translateX(20px) translateY(-10px); 
+                opacity: 0.8;
+            }
+        }
+
+        /* Square hero image styling */
+        .hero-image {
+            transition: all 0.4s ease;
+            position: relative;
+        }
+
+        .hero-image img {
+            border: 2px solid rgba(59, 130, 246, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .hero-image:hover img {
+            border-color: rgba(59, 130, 246, 0.4);
+            transform: scale(1.02);
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 640px) {
+            .hero-content {
+                padding: 1rem;
+                text-align: center;
+            }
+            
+            .hero-image img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                margin: 0 auto;
+            }
+            
+            .grid-mobile-fix {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .text-mobile-center {
+                text-align: center;
+            }
+
+            .mobile-stack {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .mobile-text-sm {
+                font-size: 0.875rem;
+            }
+
+            .mobile-p-4 {
+                padding: 1rem;
+            }
+        }
+
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .skill-card {
+            transition: all 0.3s ease;
+            transform: translateY(0);
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px) scale(1.02);
+        }
+
+        .project-card {
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px) scale(1.01);
+        }
+
+        .contact-card {
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .professional-card {
+            transition: all 0.3s ease;
+        }
+
+        .professional-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Certification carousel */
+        .scrolling-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 220px;
+        }
+
+        .cert-card {
+            position: absolute;
+            width: 300px;
+            height: auto;
+            border-radius: 12px;
+            animation: certSlide 12s linear infinite;
+            opacity: 0;
+            transform: scale(0.8);
+            transition: all 0.5s ease;
+        }
+
+        .cert-card:nth-child(1) { animation-delay: 0s; }
+        .cert-card:nth-child(2) { animation-delay: 4s; }
+        .cert-card:nth-child(3) { animation-delay: 8s; }
+
+        @keyframes certSlide {
+            0% {
+                opacity: 0;
+                transform: scale(0.8) translateY(20px);
+            }
+            8% {
+                opacity: 1;
+                transform: scale(1) translateY(0px);
+            }
+            25% {
+                opacity: 1;
+                transform: scale(1) translateY(0px);
+            }
+            33% {
+                opacity: 0;
+                transform: scale(0.8) translateY(-20px);
+            }
+            100% {
+                opacity: 0;
+                transform: scale(0.8) translateY(-20px);
+            }
+        }
+      .text-shimmer {
+    background: none;
+    -webkit-text-fill-color: #3b82f6; /* solid blue text */
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    animation: none !important;
+}
+
+@keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+
+       
+        .btn-hover {
+            position: relative;
+            overflow: hidden;
+        }
+       .btn-hover::before {
+    display: none;
+}
+
+.btn-hover:hover::before {
+    left: 100%;
+}
+
+       
+        .section-bg {
+            position: relative;
+        }
+
+        .stagger-animation {
+            animation: stagger 0.6s ease-out both;
+        }
+
+        .stagger-animation:nth-child(1) { animation-delay: 0.1s; }
+        .stagger-animation:nth-child(2) { animation-delay: 0.2s; }
+        .stagger-animation:nth-child(3) { animation-delay: 0.3s; }
+        .stagger-animation:nth-child(4) { animation-delay: 0.4s; }
+        .stagger-animation:nth-child(5) { animation-delay: 0.5s; }
+        .stagger-animation:nth-child(6) { animation-delay: 0.6s; }
+
+        @keyframes stagger {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Tech icon animations without lighting effects */
+        .tech-icon {
+            transition: all 0.3s ease;
+        }
+
+        .tech-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        /* Linux pulse animation */
+        .linux-pulse {
+            animation: linuxPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes linuxPulse {
+            0%, 100% { 
+                color: #22c55e;
+            }
+            50% { 
+                color: #16a34a;
+            }
+        }
+
+        /* Docker spin animation */
+        .docker-spin {
+            animation: dockerSpin 8s linear infinite;
+        }
+
+        @keyframes dockerSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* AWS glow animation */
+        .aws-glow {
+            animation: awsGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes awsGlow {
+            0%, 100% { 
+                color: #f97316;
+            }
+            50% { 
+                color: #ea580c;
+            }
+        }
     </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+</head>
+<body class="gradient-bg text-white overflow-x-hidden">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+            <div class="flex justify-end items-center">
+            
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+  <section id="home" class="min-h-screen gradient-bg flex items-center justify-center relative overflow-hidden pt-20">
+
+        <!-- Floating Emoji Background -->
+        <div class="emoji-float">☁️</div>
+        <div class="emoji-float">🐧</div>
+        <div class="emoji-float">🚀</div>
+        <div class="emoji-float">⚡</div>
+        <div class="emoji-float">🖥️</div>
+        <div class="emoji-float">🔧</div>
+        
+        <!-- Terminal Elements -->
+        <div class="absolute top-20 left-4 sm:left-8 terminal-element hidden sm:block">
+            $ whoami
+        </div>
+        <div class="absolute top-32 right-4 sm:right-12 terminal-element cloud-element hidden sm:block">
+            ☁️ AWS CLI
+        </div>
+        <div class="absolute bottom-32 left-4 sm:left-16 terminal-element">
+            🐧 Linux
+        </div>
+        <div class="absolute bottom-20 right-4 sm:right-20 terminal-element cloud-element">
+            🚀 Deploy
+        </div>
+        
+        <div class="z-10 max-w-6xl mx-auto px-4 sm:px-6 grid md:grid-cols-2 gap-8 md:gap-12 items-center grid-mobile-fix">
+            <!-- Left Side - Text Content -->
+            <div class="order-2 md:order-1 fade-in-left hero-content text-mobile-center">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+                    <span class="block text-shimmer">MUBENDIRAN K</span>
+                </h1>
+                <div class="text-lg sm:text-xl md:text-2xl mb-8 h-8">
+                    <span id="typing-text" class="typing-animation inline-block overflow-hidden whitespace-nowrap">Linux Learner</span>
+                </div>
+                <p class="text-sm sm:text-base md:text-lg lg:text-xl mb-8 md:mb-12 text-gray-200 fade-in-up">
+                    Passionate about cloud technologies, DevOps tools, and hands-on Linux environments
+               </p>
+<div class="flex flex-col sm:flex-row gap-4 fade-in-up justify-center md:justify-start mobile-stack" style="animation-delay: 0.2s">
+
+    <!-- View My Work -->
+    <a href="#projects" 
+       class="flex items-center justify-center px-8 py-3 min-w-[170px] rounded-full font-semibold text-sm sm:text-base text-white whitespace-nowrap 
+              bg-gradient-to-r from-blue-500 to-indigo-500 shadow-md hover:shadow-blue-500/40 
+              transition-all duration-300">
+       <i class="fas fa-code mr-2"></i>View My Work
+    </a>
+
+    <!-- Get In Touch -->
+    <a href="#contact" 
+       class="flex items-center justify-center px-8 py-3 min-w-[170px] rounded-full font-semibold text-sm sm:text-base text-white whitespace-nowrap 
+              bg-gradient-to-r from-purple-500 to-pink-500 shadow-md hover:shadow-pink-500/40 
+              transition-all duration-300">
+       <i class="fas fa-envelope mr-2"></i>Get In Touch
+    </a>
+
+    <!-- Resume -->
+    <a href="https://drive.google.com/uc?export=download&id=1lM-RSM2mW7YKTG6mUz300E86aMC0_-p0" target="_blank" 
+       class="flex items-center justify-center px-8 py-3 min-w-[170px] rounded-full font-semibold text-sm sm:text-base text-white whitespace-nowrap 
+              bg-gradient-to-r from-emerald-400 to-green-500 shadow-md hover:shadow-emerald-400/50 
+              transition-all duration-300">
+       <i class="fas fa-download mr-2"></i>Resume
+    </a>
+</div>
+
+
+
+
+</div>
+
+            
+            <!-- Right Side - Square Hero Image -->
+            <div class="order-1 md:order-2 flex justify-center fade-in-right">
+                <div class="relative hero-image">
+                    <img src="images/mubendirank.jpg" 
+                         alt="Mubendiran K" 
+                         class="w-48 h-48 sm:w-60 sm:h-60 md:w-80 md:h-80 object-cover rounded-lg shadow-xl">
+                    
+                    <!-- Tech Stack Icons around image -->
+                    <div class="tech-icon absolute -top-2 -left-2 text-lg md:text-2xl linux-pulse">🐧</div>
+                    <div class="tech-icon absolute -top-2 -right-2 text-lg md:text-2xl cloud-element">☁️</div>
+                    <div class="tech-icon absolute -bottom-2 -left-2 text-lg md:text-2xl docker-spin">🐳</div>
+                    <div class="tech-icon absolute -bottom-2 -right-2 text-lg md:text-2xl aws-glow">⚡</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 sm:py-16 md:py-20 bg-slate-800 section-bg scroll-reveal">
+        <!-- Emoji Background -->
+        <div class="emoji-float">🌐</div>
+        <div class="emoji-float">💻</div>
+        <div class="emoji-float">🔧</div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-shimmer">
+                About <span class="text-blue-400">Me</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
+                <div class="order-1 scroll-reveal">
+                    <img src="images/about.jpg" 
+                         alt="Developer Working" 
+                         class="rounded-lg shadow-xl w-full h-48 sm:h-64 md:h-96 object-cover transition-transform duration-500 hover:scale-102">
+                </div>
+                <div class="order-2 scroll-reveal mobile-p-4" style="animation-delay: 0.2s">
+                    <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 fade-in-up">Hello! I'm Mubendiran</h3>
+                    <p class="text-gray-300 mb-4 sm:mb-6 leading-relaxed fade-in-up text-sm sm:text-base mobile-text-sm" style="animation-delay: 0.3s">
+                        I'm a passionate Cloud Technologies enthusiast and DevOps learner with expertise in modern 
+                        cloud platforms and tools. I love creating scalable solutions that solve real-world problems 
+                        and deliver exceptional user experiences.
+                    </p>
+                    <p class="text-gray-300 mb-4 sm:mb-6 leading-relaxed fade-in-up text-sm sm:text-base mobile-text-sm" style="animation-delay: 0.4s">
+                        With hands-on experience in embedded systems and a strong foundation in cloud technologies, 
+                        I enjoy working with cutting-edge DevOps tools and continuously learning new skills 
+                        to stay ahead in the ever-evolving tech landscape.
+                    </p>
+                    <!-- Quick Contact Actions -->
+                    <div class="mt-6 sm:mt-8 pt-4 sm:pt-6 border-t border-gray-600 fade-in-up" style="animation-delay: 0.5s">
+                        <h4 class="text-base sm:text-lg font-semibold mb-4">Quick Actions</h4>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <a href="mailto:mubemubendiran@gmail.com" 
+                               class="btn-hover bg-blue-500 bg-opacity-70 text-white px-4 py-3 rounded-lg hover:bg-opacity-80 transition-all text-center font-medium text-sm sm:text-base">
+                                <i class="fas fa-envelope mr-2"></i>Email Me
+                            </a>
+                            <a href="tel:+918946000212" 
+                               class="btn-hover bg-green-500 bg-opacity-70 text-white px-4 py-3 rounded-lg hover:bg-opacity-80 transition-all text-center font-medium text-sm sm:text-base">
+                                <i class="fas fa-phone mr-2"></i>Call Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 sm:py-16 md:py-20 bg-slate-900 section-bg scroll-reveal">
+        <!-- Emoji Background -->
+        <div class="emoji-float">🐍</div>
+        <div class="emoji-float">🐧</div>
+        <div class="emoji-float">☁️</div>
+        <div class="emoji-float">🐳</div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-shimmer">
+                My <span class="text-blue-400">Skills</span>
+            </h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6">
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fab fa-python text-2xl sm:text-3xl md:text-5xl text-yellow-400 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Python</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-microchip text-2xl sm:text-3xl md:text-5xl text-blue-400 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">C Language</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fab fa-linux text-2xl sm:text-3xl md:text-5xl text-green-400 mb-2 md:mb-4 tech-icon linux-pulse"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Linux</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fab fa-aws text-2xl sm:text-3xl md:text-5xl text-orange-400 mb-2 md:mb-4 tech-icon aws-glow"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">AWS</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fab fa-docker text-2xl sm:text-3xl md:text-5xl text-blue-500 mb-2 md:mb-4 tech-icon docker-spin"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Docker</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-server text-2xl sm:text-3xl md:text-5xl text-red-400 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Embedded</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fab fa-git-alt text-2xl sm:text-3xl md:text-5xl text-red-500 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Git</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fab fa-github text-2xl sm:text-3xl md:text-5xl text-white mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">GitHub</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-network-wired text-2xl sm:text-3xl md:text-5xl text-purple-400 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Networking</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-code-branch text-2xl sm:text-3xl md:text-5xl text-green-500 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">CI/CD</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-play text-2xl sm:text-3xl md:text-5xl text-yellow-500 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">GitHub Actions</p>
+                </div>
+                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-tools text-2xl sm:text-3xl md:text-5xl text-cyan-400 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">DevOps</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 sm:py-16 md:py-20 bg-slate-800 section-bg scroll-reveal">
+        <!-- Emoji Background -->
+        <div class="emoji-float">🚀</div>
+        <div class="emoji-float">💡</div>
+        <div class="emoji-float">⚙️</div>
+        <div class="emoji-float">🔧</div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-shimmer">
+                My <span class="text-blue-400">Projects</span>
+            </h2>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
+                <div class="project-card stagger-animation bg-slate-900 rounded-lg overflow-hidden shadow-xl">
+                    <div class="overflow-hidden">
+                        <img src="images/shopsense(pro).jpg" 
+                             alt="ShopSense Project" 
+                             class="w-full h-32 sm:h-40 md:h-48 object-cover">
+                    </div>
+                    <div class="p-3 sm:p-4 md:p-6">
+                        <h3 class="text-base sm:text-lg md:text-xl font-bold mb-2">ShopSense</h3>
+                        <p class="text-gray-400 mb-3 sm:mb-4 text-xs sm:text-sm md:text-base">A smart shopping assistant.</p>
+                        <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
+                            <span class="bg-blue-500 text-xs px-2 py-1 rounded">RFID</span>
+                            <span class="bg-green-500 text-xs px-2 py-1 rounded">Arduino</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/MUBENDIRAN/ShopSense" class="text-blue-400 hover:text-blue-300 transition-colors text-xs sm:text-sm md:text-base">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://youtu.be/Ou_bG1i3ybU?si=43ZudmzWYoyDtpPT" target="_blank" class="text-red-400 hover:text-red-300 transition-colors text-xs sm:text-sm md:text-base">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card stagger-animation bg-slate-900 rounded-lg overflow-hidden shadow-xl">
+                    <div class="overflow-hidden">
+                        <img src="images/radarlite(pro).jpg" 
+                             alt="RadarLite Project" 
+                             class="w-full h-32 sm:h-40 md:h-48 object-cover">
+                    </div>
+                    <div class="p-3 sm:p-4 md:p-6">
+                        <h3 class="text-base sm:text-lg md:text-xl font-bold mb-2">RadarLite</h3>
+                        <p class="text-gray-400 mb-3 sm:mb-4 text-xs sm:text-sm md:text-base">A lightweight radar application.</p>
+                        <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
+                            <span class="bg-purple-500 text-xs px-2 py-1 rounded">ESP32</span>
+                            <span class="bg-red-500 text-xs px-2 py-1 rounded">Linux</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/MUBENDIRAN/RadarLite" class="text-blue-400 hover:text-blue-300 transition-colors text-xs sm:text-sm md:text-base">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://youtu.be/zf8WgtXcOnU?si=5m_PGSOzI9GYrh6S" target="_blank" class="text-red-400 hover:text-red-300 transition-colors text-xs sm:text-sm md:text-base">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card stagger-animation bg-slate-900 rounded-lg overflow-hidden shadow-xl">
+                    <div class="overflow-hidden">
+                        <img src="images/bit(pro).jpg" 
+                             alt="BIT Project" 
+                             class="w-full h-32 sm:h-40 md:h-48 object-cover">
+                    </div>
+                    <div class="p-3 sm:p-4 md:p-6">
+                        <h3 class="text-base sm:text-lg md:text-xl font-bold mb-2">BIT Project</h3>
+                        <p class="text-gray-400 mb-3 sm:mb-4 text-xs sm:text-sm md:text-base">A project for the Bannari Amman Institute of Technology.</p>
+                        <div class="flex flex-wrap gap-2 mb-3 sm:mb-4">
+                            <span class="bg-cyan-500 text-xs px-2 py-1 rounded">IoT</span>
+                            <span class="bg-orange-500 text-xs px-2 py-1 rounded">ThingSpeak</span>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="https://github.com/MUBENDIRAN/BIT" class="text-blue-400 hover:text-blue-300 transition-colors text-xs sm:text-sm md:text-base">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://youtu.be/AoHz-aVm61Q?si=yg86EG2m9mwE-wZ4" target="_blank" class="text-red-400 hover:text-red-300 transition-colors text-xs sm:text-sm md:text-base">
+                                <i class="fab fa-youtube"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-12 sm:py-16 md:py-20 bg-slate-900 section-bg scroll-reveal">
+        <!-- Emoji Background -->
+        <div class="emoji-float">🏆</div>
+        <div class="emoji-float">📜</div>
+        <div class="emoji-float">🎓</div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-shimmer">
+                My <span class="text-blue-400">Certifications</span>
+            </h2>
+            <div class="scrolling-wrapper">
+                <img src="images/linuxtutorial(cert).jpg" alt="Linux Tutorial Certification" class="cert-card">
+                <img src="images/arduinoguvi(cert).jpg" alt="Arduino GUVI Certification" class="cert-card">
+                <img src="images/cloudcomputing(cert).jpg" alt="Cloud Computing Certification" class="cert-card">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 sm:py-16 md:py-20 bg-slate-800 section-bg scroll-reveal">
+        <!-- Emoji Background -->
+        <div class="emoji-float">📧</div>
+        <div class="emoji-float">📱</div>
+        <div class="emoji-float">🌍</div>
+        
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-8 sm:mb-12 md:mb-16 text-shimmer">
+                Get In <span class="text-blue-400">Touch</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
+                <!-- Left Side - Contact Information -->
+                <div class="scroll-reveal">
+                    <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 fade-in-up">Let's Work Together</h3>
+                    <p class="text-gray-300 mb-4 sm:mb-6 md:mb-8 fade-in-up text-sm sm:text-base" style="animation-delay: 0.1s">
+                        I'm always open to new opportunities, collaborations, and discussions about cloud technologies and DevOps. 
+                        Feel free to reach out!
+                    </p>
+                    
+                    <!-- Contact Cards -->
+                    <div class="space-y-3 sm:space-y-4 mb-4 sm:mb-6 md:mb-8">
+                        <a href="mailto:mubemubendiran@gmail.com" class="contact-card stagger-animation flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 glass-card rounded-lg hover:cursor-pointer">
+                            <i class="fas fa-envelope text-blue-400 text-base sm:text-lg md:text-xl tech-icon"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm">Email</p>
+                                <span class="text-white hover:text-blue-400 transition-colors text-xs sm:text-sm md:text-base">mubemubendiran@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="tel:+918946000212" class="contact-card stagger-animation flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 glass-card rounded-lg hover:cursor-pointer">
+                            <i class="fas fa-phone text-green-400 text-base sm:text-lg md:text-xl tech-icon"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm">Phone</p>
+                                <span class="text-white hover:text-green-400 transition-colors text-xs sm:text-sm md:text-base">+91 8946000212</span>
+                            </div>
+                        </a>
+                        <div class="contact-card stagger-animation flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 glass-card rounded-lg">
+                            <i class="fas fa-map-marker-alt text-red-400 text-base sm:text-lg md:text-xl tech-icon"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm">Location</p>
+                                <span class="text-white text-xs sm:text-sm md:text-base">Chennai, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/uc?export=download&id=1lM-RSM2mW7YKTG6mUz300E86aMC0_-p0" target="_blank" class="contact-card stagger-animation flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 glass-card rounded-lg hover:cursor-pointer">
+                            <i class="fas fa-file-pdf text-purple-400 text-base sm:text-lg md:text-xl tech-icon"></i>
+                            <div>
+                                <p class="text-gray-400 text-xs md:text-sm">Resume / CV</p>
+                                <span class="text-white hover:text-purple-400 transition-colors text-xs sm:text-sm md:text-base">Download my detailed resume</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Right Side - Professional Links -->
+                <div class="scroll-reveal" style="animation-delay: 0.2s">
+                    <div class="glass-card rounded-lg p-4 sm:p-6 md:p-8">
+                        <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 fade-in-up">Professional Links</h3>
+                        <div class="space-y-3 sm:space-y-4 md:space-y-6">
+                            <!-- LinkedIn Card -->
+                            <div class="professional-card stagger-animation p-3 sm:p-4 md:p-6 bg-blue-600 bg-opacity-15 rounded-lg border border-blue-400 border-opacity-20 hover:border-opacity-30 transition-all">
+                                <div class="flex items-center space-x-3 sm:space-x-4">
+                                    <i class="fab fa-linkedin text-xl sm:text-2xl md:text-3xl text-blue-400 tech-icon"></i>
+                                    <div>
+                                        <h4 class="text-sm sm:text-base md:text-lg font-semibold text-white">LinkedIn Profile</h4>
+                                        <p class="text-blue-200 text-xs md:text-sm">Connect with me professionally</p>
+                                        <a href="https://www.linkedin.com/in/mubendiran-k/" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors text-xs md:text-sm">View Profile →</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- GitHub Card -->
+                            <div class="professional-card stagger-animation p-3 sm:p-4 md:p-6 bg-gray-600 bg-opacity-15 rounded-lg border border-gray-400 border-opacity-20 hover:border-opacity-30 transition-all">
+                                <div class="flex items-center space-x-3 sm:space-x-4">
+                                    <i class="fab fa-github text-xl sm:text-2xl md:text-3xl text-gray-300 tech-icon"></i>
+                                    <div>
+                                        <h4 class="text-sm sm:text-base md:text-lg font-semibold text-white">GitHub Repository</h4>
+                                        <p class="text-gray-200 text-xs md:text-sm">Check out my projects and code</p>
+                                        <a href="https://github.com/MUBENDIRAN" target="_blank" class="text-gray-300 hover:text-white transition-colors text-xs md:text-sm">View Repository →</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- YouTube Card -->
+                            <div class="professional-card stagger-animation p-3 sm:p-4 md:p-6 bg-red-600 bg-opacity-15 rounded-lg border border-red-400 border-opacity-20 hover:border-opacity-30 transition-all">
+                                <div class="flex items-center space-x-3 sm:space-x-4">
+                                    <i class="fab fa-youtube text-xl sm:text-2xl md:text-3xl text-red-400 tech-icon"></i>
+                                    <div>
+                                        <h4 class="text-sm sm:text-base md:text-lg font-semibold text-white">YouTube Channel</h4>
+                                        <p class="text-red-200 text-xs md:text-sm">Watch my project demos and tutorials</p>
+                                        <a href="https://www.youtube.com/@MUBENDIRANK" target="_blank" class="text-red-400 hover:text-red-300 transition-colors text-xs md:text-sm">Subscribe →</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 py-6 md:py-8 border-t border-gray-700 section-bg">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 text-center">
+            <p class="text-gray-400 fade-in-up text-xs sm:text-sm md:text-base">
+                © 2025 Mubendiran K. All rights reserved.
+            </p>
+            <div class="flex justify-center space-x-4 mt-4 fade-in-up" style="animation-delay: 0.1s">
+                <a href="https://www.linkedin.com/in/mubendiran-k/" target="_blank" class="tech-icon text-blue-400 text-base sm:text-lg md:text-xl hover:text-blue-300">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/MUBENDIRAN" target="_blank" class="tech-icon text-gray-300 text-base sm:text-lg md:text-xl hover:text-white">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.youtube.com/@MUBENDIRANK" target="_blank" class="tech-icon text-red-400 text-base sm:text-lg md:text-xl hover:text-red-300">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // Enhanced Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        // Enhanced Typing Animation
+        const typingTexts = [
+            'Linux Learner', 
+            'DevOps Explorer', 
+            'Cloud Enthusiast', 
+            'Embedded Systems ',
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        const typingElement = document.getElementById('typing-text');
+
+        function typeText() {
+            if (charIndex < typingTexts[textIndex].length) {
+                typingElement.textContent = typingTexts[textIndex].substring(0, charIndex + 1);
+                charIndex++;
+                setTimeout(typeText, 80);
+            } else {
+                setTimeout(eraseText, 2500);
+            }
         }
-      });
+
+        function eraseText() {
+            if (charIndex > 0) {
+                typingElement.textContent = typingTexts[textIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(eraseText, 40);
+            } else {
+                textIndex = (textIndex + 1) % typingTexts.length;
+                setTimeout(typeText, 500);
+            }
+        }
+
+        // Start typing animation
+        setTimeout(typeText, 1000);
+
+        // Enhanced Scroll Reveal Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const scrollObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    
+                    const staggerElements = entry.target.querySelectorAll('.stagger-animation');
+                    staggerElements.forEach((el, index) => {
+                        setTimeout(() => {
+                            el.style.animationDelay = `${index * 0.1}s`;
+                            el.classList.add('visible');
+                        }, index * 100);
+                    });
+                }
+            });
+        }, observerOptions);
+
+        // Observe all scroll-reveal elements
+        document.querySelectorAll('.scroll-reveal').forEach(el => {
+            scrollObserver.observe(el);
+        });
+
+        // Skill Cards Animation on Scroll
+        const skillObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillCards = entry.target.querySelectorAll('.skill-card');
+                    skillCards.forEach((card, index) => {
+                        setTimeout(() => {
+                            card.style.animationDelay = `${index * 0.1}s`;
+                            card.classList.add('visible');
+                        }, index * 50);
+                    });
+                }
+            });
+        }, observerOptions);
+
+        const skillsSection = document.getElementById('skills');
+        if (skillsSection) {
+            skillObserver.observe(skillsSection);
+        }
+
+        // Reduced parallax effect for better mobile performance
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking && window.innerWidth > 768) {
+                requestAnimationFrame(() => {
+                    const scrolled = window.pageYOffset;
+                    const emojiElements = document.querySelectorAll('.emoji-float');
+                    
+                    emojiElements.forEach((emoji, index) => {
+                        const speed = 0.2 + (index * 0.03);
+                        const yPos = -(scrolled * speed);
+                        emoji.style.transform = `translateY(${yPos}px)`;
+                    });
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        });
+        // Add loading animation
+window.addEventListener('load', () => {
+    document.body.style.opacity = '0';
+    document.body.style.transition = 'opacity 0.5s ease';
+    
+    setTimeout(() => {
+        document.body.style.opacity = '1';
+    }, 100);
+});
+      
+
+        // Mobile optimizations
+        const isMobile = window.innerWidth <= 768;
+        if (isMobile) {
+            document.documentElement.style.setProperty('--animation-speed', '0.3s');
+            
+            // Disable complex animations on very small screens
+            if (window.innerWidth <= 480) {
+                document.querySelectorAll('.emoji-float').forEach(emoji => {
+                    emoji.style.animation = 'emojiFloat 15s ease-in-out infinite';
+                });
+            }
+        }
+
+        // Touch device optimizations
+        if ('ontouchstart' in window) {
+            document.body.classList.add('touch-device');
+            
+            document.querySelectorAll('.skill-card, .project-card, .contact-card').forEach(card => {
+                card.addEventListener('touchstart', function() {
+                    this.classList.add('touch-active');
+                });
+                
+                card.addEventListener('touchend', function() {
+                    setTimeout(() => {
+                        this.classList.remove('touch-active');
+                    }, 300);
+                });
+            });
+        }
     </script>
-  </body>
+</body>
 </html>
