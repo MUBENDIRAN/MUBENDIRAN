@@ -23,7 +23,7 @@
   <a href="mailto:mubemubendiran@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://mubendiran-k-99hy8ch.gamma.site">
+  <a href="https://mubendiran.github.io/MUBENDIRAN">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" />
   </a>
   <a href="https://drive.google.com/drive/folders/1HW-DbJDAf5HpGVUOArzzw--NFhKkdqkl">
