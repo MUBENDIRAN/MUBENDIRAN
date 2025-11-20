@@ -9,7 +9,7 @@
 
 <h2 align="left">𝗔𝗕𝗢𝗨𝗧 𝗠𝗘</h2>
 
-🔹 Working with **AWS, Linux, Docker, and CI/CD** to build and manage cloud environments.  
+🔹 I Work with **AWS, Linux, Docker, and CI/CD** to build and manage cloud environments.  
 🔹 Focused on **cloud fundamentals**, infrastructure workflows, and improving automation through modern tooling.
 
 
