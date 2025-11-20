@@ -9,10 +9,9 @@
 
 <h2 align="left">𝗔𝗕𝗢𝗨𝗧 𝗠𝗘</h2>
 
-🔹 **Electronics & Embedded Systems Enthusiast** with hands-on experience in **Embedded Programming** and **Linux Scripting**.  
-🔹 Passionate about **Microcontrollers, Sensors, and Real-time Systems**, I love building solutions that **bridge hardware and software**.  
+🔹 Working with **AWS, Linux, Docker, and CI/CD** to build and manage cloud environments.  
+🔹 Focused on **cloud fundamentals**, infrastructure workflows, and improving automation through modern tooling.
 
----
 
 <h2 align="left">🌐 𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗪𝗜𝗧𝗛 𝗠𝗘</h2>
 
@@ -42,7 +41,7 @@
 <h2 align="left">💻 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,bash,aws,arduino&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,python,bash,aws,docker&theme=dark" />
 </p>
 
 ---
