@@ -47,27 +47,7 @@
             transform: translateY(-2px);
         }
 
-        .typing-animation {
-    border-right: 2px solid #3b82f6;
-    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
-    color: #ffffff; /* solid white text for visibility */
-    background: none;
-    -webkit-background-clip: initial;
-    -webkit-text-fill-color: initial;
-    background-clip: initial;
-}
-
-        @keyframes typing {
-            from { width: 0 }
-            to { width: 100% }
-        }
-
-        @keyframes blink-caret {
-            from, to { border-color: transparent }
-            50% { border-color: #3b82f6 }
-        }
-
-        .fade-in-up {
+                .fade-in-up {
             animation: fadeInUp 0.8s ease-out;
         }
 
@@ -112,7 +92,7 @@
             }
         }
 
-        .floating-btn {
+                .floating-btn {
             animation: gentle-float 4s ease-in-out infinite;
             transition: all 0.3s ease;
         }
@@ -199,6 +179,53 @@
             50% { 
                 transform: translateX(20px) translateY(-10px); 
                 opacity: 0.8;
+            }
+        }
+
+        /* Tech icon animations without lighting effects */
+        .tech-icon {
+            transition: all 0.3s ease;
+        }
+
+        .tech-icon:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+
+        /* Linux pulse animation */
+        .linux-pulse {
+            animation: linuxPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes linuxPulse {
+            0%, 100% { 
+                color: #22c55e;
+            }
+            50% { 
+                color: #16a34a;
+            }
+        }
+
+        /* Docker spin animation */
+        .docker-spin {
+            animation: dockerSpin 8s linear infinite;
+        }
+
+        @keyframes dockerSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* AWS glow animation */
+        .aws-glow {
+            animation: awsGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes awsGlow {
+            0%, 100% { 
+                color: #f97316;
+            }
+            50% { 
+                color: #ea580c;
             }
         }
 
@@ -355,52 +382,6 @@
             }
         }
 
-        /* Tech icon animations without lighting effects */
-        .tech-icon {
-            transition: all 0.3s ease;
-        }
-
-        .tech-icon:hover {
-            transform: scale(1.1) rotate(5deg);
-        }
-
-        /* Linux pulse animation */
-        .linux-pulse {
-            animation: linuxPulse 2s ease-in-out infinite;
-        }
-
-        @keyframes linuxPulse {
-            0%, 100% { 
-                color: #22c55e;
-            }
-            50% { 
-                color: #16a34a;
-            }
-        }
-
-        /* Docker spin animation */
-        .docker-spin {
-            animation: dockerSpin 8s linear infinite;
-        }
-
-        @keyframes dockerSpin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* AWS glow animation */
-        .aws-glow {
-            animation: awsGlow 3s ease-in-out infinite;
-        }
-
-        @keyframes awsGlow {
-            0%, 100% { 
-                color: #f97316;
-            }
-            50% { 
-                color: #ea580c;
-            }
-        }
     </style>
 </head>
 <body class="gradient-bg text-white overflow-x-hidden">
@@ -445,11 +426,8 @@
                     <span class="block text-shimmer">MUBENDIRAN K</span>
                 </h1>
                 <div class="text-lg sm:text-xl md:text-2xl mb-8 h-8">
-                    <span id="typing-text" class="typing-animation inline-block overflow-hidden whitespace-nowrap">Linux Learner</span>
+                    <span id="typing-text" class="typing-animation inline-block overflow-hidden whitespace-nowrap"></span>
                 </div>
-                <p class="text-sm sm:text-base md:text-lg lg:text-xl mb-8 md:mb-12 text-gray-200 fade-in-up">
-                    Passionate about cloud technologies, DevOps tools, and hands-on Linux environments
-               </p>
 <div class="flex flex-col sm:flex-row gap-4 fade-in-up justify-center md:justify-start mobile-stack" style="animation-delay: 0.2s">
 
     <!-- View My Work -->
@@ -520,9 +498,8 @@
                 <div class="order-2 scroll-reveal mobile-p-4" style="animation-delay: 0.2s">
                     <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 fade-in-up">Hello! I'm Mubendiran</h3>
                     <p class="text-gray-300 mb-4 sm:mb-6 leading-relaxed fade-in-up text-sm sm:text-base mobile-text-sm" style="animation-delay: 0.3s">
-                        I'm a passionate Cloud Technologies enthusiast and DevOps learner with expertise in modern 
-                        cloud platforms and tools. I love creating scalable solutions that solve real-world problems 
-                        and deliver exceptional user experiences.
+                        I work with AWS, Linux, Docker, and CI/CD workflows to deploy and manage cloud infrastructure.
+                        My focus is on understanding cloud systems deeply and improving automation with modern tooling.
                     </p>
                     
                     <!-- Quick Contact Actions -->
@@ -590,9 +567,9 @@
                     <i class="fas fa-network-wired text-2xl sm:text-3xl md:text-5xl text-purple-400 mb-2 md:mb-4 tech-icon"></i>
                     <p class="text-white font-medium text-xs sm:text-sm md:text-base">Networking</p>
                 </div>
-                <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
-                    <i class="fas fa-code-branch text-2xl sm:text-3xl md:text-5xl text-green-500 mb-2 md:mb-4 tech-icon"></i>
-                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">CI/CD</p>
+               <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
+                    <i class="fas fa-terminal text-2xl sm:text-3xl md:text-5xl text-yellow-400 mb-2 md:mb-4 tech-icon"></i>
+                    <p class="text-white font-medium text-xs sm:text-sm md:text-base">Bash</p>
                 </div>
                 <div class="skill-card stagger-animation text-center p-3 sm:p-4 md:p-6 glass-card rounded-lg">
                     <i class="fas fa-play text-2xl sm:text-3xl md:text-5xl text-yellow-500 mb-2 md:mb-4 tech-icon"></i>
@@ -740,8 +717,7 @@
                 <div class="scroll-reveal">
                     <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 fade-in-up">Let's Work Together</h3>
                     <p class="text-gray-300 mb-4 sm:mb-6 md:mb-8 fade-in-up text-sm sm:text-base" style="animation-delay: 0.1s">
-                        I'm always open to new opportunities, collaborations, and discussions about cloud technologies and DevOps. 
-                        Feel free to reach out!
+                        I'm always open to new opportunities, collaborations, and discussions!
                     </p>
                     
                     <!-- Contact Cards -->
@@ -839,7 +815,6 @@
     </footer>
 
     <script>
-        // Enhanced Smooth Scrolling
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -855,8 +830,6 @@
 
         // Enhanced Typing Animation
         const typingTexts = [
-            'Linux Learner', 
-            'DevOps Explorer', 
             'Cloud Enthusiast', 
         ];
         let textIndex = 0;
