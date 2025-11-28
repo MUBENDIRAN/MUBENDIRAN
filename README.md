@@ -4,6 +4,9 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=1E90FF&center=true&vCenter=true&width=650&lines=$+Hiii%2C+I'm+Mubendiran+K_|" alt="Linux Terminal Typing" />
 
 </h1>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MUBENDIRAN&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
 
 ---
 
