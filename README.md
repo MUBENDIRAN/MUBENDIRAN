@@ -44,7 +44,7 @@
 <h2 align="left">💻 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,bash,aws,docker&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,bash,aws,docker,githubactions&theme=dark" />
 </p>
 
 ---
