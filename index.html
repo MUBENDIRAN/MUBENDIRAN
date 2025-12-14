@@ -92,6 +92,19 @@
             }
         }
 
+        .fade-in {
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
                 .floating-btn {
             animation: gentle-float 4s ease-in-out infinite;
             transition: all 0.3s ease;
@@ -169,7 +182,7 @@
         .cloud-element {
             color: #60a5fa;
             animation: cloudDrift 8s ease-in-out infinite;
-        
+        }
 
         @keyframes cloudDrift {
             0%, 100% { 
@@ -284,14 +297,16 @@
 
         .scroll-reveal {
             opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.6s ease;
+            transform: translateY(50px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
 
         .scroll-reveal.visible {
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* No section-level fade - only individual elements fade to preserve colors */
 
         .skill-card {
             transition: all 0.3s ease;
@@ -330,10 +345,27 @@
 
       .text-shimmer {
     background: none;
-    -webkit-text-fill-color: #3b82f6; /* solid blue text */
     -webkit-background-clip: initial;
     background-clip: initial;
     animation: none !important;
+}
+
+      /* Name title should be white */
+      h1 .text-shimmer,
+      .text-shimmer:only-child {
+    color: white;
+    -webkit-text-fill-color: white;
+}
+
+      /* For h2 with text-shimmer, keep text white and let spans have their colors */
+      h2.text-shimmer {
+    color: white !important;
+    -webkit-text-fill-color: initial !important;
+}
+
+      h2.text-shimmer .text-blue-400 {
+    color: #60a5fa !important;
+    -webkit-text-fill-color: #60a5fa !important;
 }
 
 @keyframes shimmer {
@@ -862,8 +894,8 @@
 
         // Enhanced Scroll Reveal Animation
         const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
+            threshold: 0.15,
+            rootMargin: '0px 0px -100px 0px'
         };
 
         const scrollObserver = new IntersectionObserver((entries) => {
