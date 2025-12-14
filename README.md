@@ -41,7 +41,7 @@
 <h2 align="left">💻 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,python,bash,aws,docker&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,bash,aws,docker,githubactions&theme=dark" />
 </p>
 
 ---
@@ -49,10 +49,12 @@
 <h2 align="left">📊 𝗚𝗜𝗧𝗛𝗨𝗕 𝗦𝗧𝗔𝗧𝗦</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true" height="180em" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=MUBENDIRAN&theme=tokyonight&hide_border=false" height="180em" />
+ <img src="https://github-readme-stats-mu-eosin.vercel.app/api?username=MUBENDIRAN&show_icons=true&theme=tokyonight" height="180em" />
+
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUBENDIRAN&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact" height="180em" />
+  <img src="https://github-readme-stats-mu-eosin.vercel.app/api/top-langs/?username=MUBENDIRAN&layout=compact&theme=tokyonight" height="180em" />
+
 </p>
+
