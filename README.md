@@ -13,7 +13,7 @@
 🔹 Focused on **cloud fundamentals**, infrastructure workflows, and improving automation through modern tooling.
 
 
-<h2 align="left">🌐 𝗖𝗢𝗡𝗡𝗘𝗖𝗧 𝗪𝗜𝗧𝗛 𝗠𝗘</h2>
+<h2 align="left">🌐 PROFESSIONAL LINKS</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mubendiran-k">
