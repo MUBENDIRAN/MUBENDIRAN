@@ -9,8 +9,10 @@
 
 <h2 align="left">👨‍💻 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘</h2>
 
-🔹 I Work with **AWS, Linux, Docker, and CI/CD** to build and manage cloud environments.  
-🔹 Focused on **cloud fundamentals**, infrastructure workflows, and improving automation through modern tooling.
+🔹 Engineering student focused on software development fundamentals, problem solving, and data structures using Python.  
+🔹 I enjoy breaking problems into smaller parts, writing clean and readable code, and improving solutions by handling edge cases and constraints.  
+🔹 I also deploy selected projects to real environments to understand how software behaves beyond local execution.
+
 
 
 <h2 align="left">🌐 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗜𝗢𝗡𝗔𝗟 𝗟𝗜𝗡𝗞𝗦</h2>
@@ -41,7 +43,7 @@
 <h2 align="left">💻 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,bash,aws,docker,githubactions&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,bash,git,linux,aws&theme=dark" />
 </p>
 
 ---
