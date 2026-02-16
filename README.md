@@ -11,7 +11,7 @@
 
 🔹 Engineering student focused on software development fundamentals, problem solving, and data structures using Python.  
 🔹 I enjoy breaking problems into smaller parts, writing clean and readable code, and improving solutions by handling edge cases and constraints.  
-🔹 I also deploy selected projects to real environments to understand how software behaves beyond local execution.
+🔹 I have also deployed projects to real environments to understand how software behaves beyond local execution.
 
 
 
