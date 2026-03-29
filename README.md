@@ -30,7 +30,7 @@
   <a href="https://drive.google.com/drive/folders/1HW-DbJDAf5HpGVUOArzzw--NFhKkdqkl">
     <img src="https://img.shields.io/badge/Certifications-4CAF50?style=for-the-badge&logo=GoogleDrive&logoColor=white" />
   </a>
-  <a href="https://drive.google.com/file/d/1GliHYfK9joLDVFkP5oD_aR9Cet20OIU5/view?usp=drivesdk">
+  <a href="https://drive.google.com/file/d/1Ij1WemDWJjPPGv2ZJAoQXLCh0qhbmm5l/view?usp=drivesdk">
     <img src="https://img.shields.io/badge/Resume-FF4500?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white" />
   </a>
   <a href="https://www.youtube.com/@MUBENDIRAN">
