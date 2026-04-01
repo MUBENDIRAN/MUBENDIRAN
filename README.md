@@ -9,11 +9,13 @@
 
 <h2 align="left">👨‍💻 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘</h2>
 
-🔹 Engineering student focused on software development fundamentals, problem solving, and data structures using Python.  
-🔹 I enjoy breaking problems into smaller parts, writing clean and readable code, and improving solutions by handling edge cases and constraints.  
-🔹 I have also deployed projects to real environments to understand how software behaves beyond local execution.
+<p>
+I build backend and AI systems focused on real-world deployment, scalability, and system behavior.
+</p>
 
-
+- 🔹 **Backend & AI:** FastAPI, RAG pipelines, AWS  
+- 🔹 **Focus:** Real-world systems, not just local demos  
+- 🔹 **Approach:** Clean, scalable design with edge-case handling  
 
 <h2 align="left">🌐 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗜𝗢𝗡𝗔𝗟 𝗟𝗜𝗡𝗞𝗦</h2>
 
