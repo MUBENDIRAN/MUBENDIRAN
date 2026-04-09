@@ -1,64 +1,61 @@
 <h1 align="center">
-
-<!-- Linux Terminal Style Intro -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=1E90FF&center=true&vCenter=true&width=650&lines=$+Hiii%2C+I'm+Mubendiran+K_|" alt="Linux Terminal Typing" />
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=28&duration=3000&pause=1000&color=1E90FF&center=true&vCenter=true&width=650&lines=$+Hi%2C+I'm+Mubendiran+K" alt="Typing intro" />
 </h1>
+
+<p align="center">
+  Backend & Applied AI Developer • Building reliable systems with Python, FastAPI, SQL, and cloud-native tooling.
+</p>
 
 ---
 
-<h2 align="left">👨‍💻 𝗔𝗕𝗢𝗨𝗧 𝗠𝗘</h2>
+## 👨‍💻 About Me
 
-<p>
-I build backend and AI systems focused on real-world deployment, scalability, and system behavior.
-</p>
+I’m **Mubendiran**, a developer focused on production-ready backend and AI systems.  
+I design clean APIs, build stable data pipelines, and ship practical AI features that create real value.
 
-- 🔹 **Backend & AI:** FastAPI, RAG pipelines, AWS  
-- 🔹 **Focus:** Real-world systems, not just local demos  
-- 🔹 **Approach:** Clean, scalable design with edge-case handling  
+My goal is simple: write software that is **maintainable, scalable, and dependable** in real-world use.
 
-<h2 align="left">🌐 𝗣𝗥𝗢𝗙𝗘𝗦𝗦𝗜𝗢𝗡𝗔𝗟 𝗟𝗜𝗡𝗞𝗦</h2>
+---
+
+## 🌐 Professional Links
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mubendiran-k">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:mubemubendiran@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://mubendiran.github.io/MUBENDIRAN">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" />
+  <a href="https://mubendiran.tech/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://drive.google.com/drive/folders/1HW-DbJDAf5HpGVUOArzzw--NFhKkdqkl">
-    <img src="https://img.shields.io/badge/Certifications-4CAF50?style=for-the-badge&logo=GoogleDrive&logoColor=white" />
+    <img src="https://img.shields.io/badge/Certifications-4CAF50?style=for-the-badge&logo=GoogleDrive&logoColor=white" alt="Certifications" />
   </a>
   <a href="https://drive.google.com/file/d/1Ij1WemDWJjPPGv2ZJAoQXLCh0qhbmm5l/view?usp=drivesdk">
-    <img src="https://img.shields.io/badge/Resume-FF4500?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white" />
+    <img src="https://img.shields.io/badge/Resume-FF4500?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white" alt="Resume" />
   </a>
   <a href="https://www.youtube.com/@MUBENDIRAN">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   </a>
 </p>
 
 ---
 
-<h2 align="left">💻 𝗧𝗘𝗖𝗛 𝗦𝗧𝗔𝗖𝗞</h2>
+## 💻 Core Skills
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,linux,aws&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,linux,aws,docker,git,fastapi&theme=dark" alt="Skills" />
 </p>
 
----
 
-<h2 align="left">📊 𝗚𝗜𝗧𝗛𝗨𝗕 𝗦𝗧𝗔𝗧𝗦</h2>
+
+## 📊 GitHub Stats
 
 <p align="center">
- <img src="https://github-readme-stats-mu-eosin.vercel.app/api?username=MUBENDIRAN&show_icons=true&theme=tokyonight" height="180em" />
-
+  <img src="https://github-readme-stats-mu-eosin.vercel.app/api?username=MUBENDIRAN&show_icons=true&theme=tokyonight" height="180em" alt="GitHub stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats-mu-eosin.vercel.app/api/top-langs/?username=MUBENDIRAN&layout=compact&theme=tokyonight" height="180em" />
-
+  <img src="https://github-readme-stats-mu-eosin.vercel.app/api/top-langs/?username=MUBENDIRAN&layout=compact&theme=tokyonight" height="180em" alt="Top languages" />
 </p>
-
