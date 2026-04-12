@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Backend & Applied AI Developer • Building reliable systems with Python, FastAPI, SQL, and cloud-native tooling.
+  Backend & Applied AI Developer🧑‍💻
 </p>
 
 ---
