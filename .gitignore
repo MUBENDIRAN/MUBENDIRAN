@@ -67,3 +67,10 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+node_modules
+dist
+.env
+.DS_Store
+*.local
+
