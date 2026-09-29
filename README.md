@@ -7,7 +7,6 @@
   <a href="https://mubendiran.tech"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/></a>
   <a href="mailto:mubemubendiran@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://www.youtube.com/@mubendiran"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-  <a href="https://drive.google.com/file/d/1Ij1WemDWJjPPGv2ZJAoQXLCh0qhbmm5l/view?usp=drivesdk"><img src="https://img.shields.io/badge/Resume-4CAF50?style=for-the-badge&logo=AdobeAcrobatReader&logoColor=white"/></a>
 </p>
 </div>
 

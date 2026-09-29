@@ -57,39 +57,6 @@ export default function Contact() {
               <i className="fas fa-arrow-right" style={{ marginLeft: 'auto', color: 'var(--text-3)', fontSize: '0.75rem' }}></i>
             </a>
 
-            <a href="tel:+918946000212" className="contact-row reveal" style={{ transitionDelay: '0.1s' }}>
-              <div style={{
-                width: 42, height: 42, borderRadius: 10, flexShrink: 0,
-                background: 'rgba(16,185,129,0.12)', border: '1px solid rgba(16,185,129,0.25)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: '1rem', color: '#10b981',
-              }}>
-                <i className="fas fa-phone"></i>
-              </div>
-              <div>
-                <p style={{ fontFamily: "'DM Mono',monospace", fontSize: '0.6rem', color: 'var(--text-3)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: 2 }}>Phone</p>
-                <p style={{ fontSize: '0.875rem', fontWeight: 500 }}>+91 8946000212</p>
-              </div>
-              <i className="fas fa-arrow-right" style={{ marginLeft: 'auto', color: 'var(--text-3)', fontSize: '0.75rem' }}></i>
-            </a>
-
-            <a href="https://drive.google.com/file/d/1Ij1WemDWJjPPGv2ZJAoQXLCh0qhbmm5l/view?usp=drivesdk"
-              target="_blank" rel="noreferrer" className="contact-row reveal" style={{ transitionDelay: '0.2s' }}>
-              <div style={{
-                width: 42, height: 42, borderRadius: 10, flexShrink: 0,
-                background: 'rgba(139,92,246,0.12)', border: '1px solid rgba(139,92,246,0.25)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                fontSize: '1rem', color: '#8b5cf6',
-              }}>
-                <i className="fas fa-file-pdf"></i>
-              </div>
-              <div>
-                <p style={{ fontFamily: "'DM Mono',monospace", fontSize: '0.6rem', color: 'var(--text-3)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: 2 }}>Resume / CV</p>
-                <p style={{ fontSize: '0.875rem', fontWeight: 500 }}>Download my detailed resume</p>
-              </div>
-              <i className="fas fa-download" style={{ marginLeft: 'auto', color: 'var(--text-3)', fontSize: '0.75rem' }}></i>
-            </a>
-
             {/* Location */}
             <div className="contact-row reveal" style={{ transitionDelay: '0.3s', cursor: 'default' }}>
               <div style={{

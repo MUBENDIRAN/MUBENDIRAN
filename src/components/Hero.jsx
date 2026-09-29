@@ -107,11 +107,6 @@ export default function Hero() {
               <i className="fas fa-envelope"></i>
               <span>Get In Touch</span>
             </button>
-            <a href="https://drive.google.com/file/d/1Ij1WemDWJjPPGv2ZJAoQXLCh0qhbmm5l/view?usp=drivesdk"
-              target="_blank" rel="noreferrer" className="btn-green">
-              <i className="fas fa-download"></i>
-              <span>Resume</span>
-            </a>
           </div>
 
           {/* Social row */}

@@ -103,9 +103,6 @@ export default function About() {
                 <a href="mailto:mubemubendiran@gmail.com" className="btn-primary" style={{ fontSize: '0.8rem', padding: '0.6rem 1.25rem' }}>
                   <i className="fas fa-envelope"></i><span>Email Me</span>
                 </a>
-                <a href="tel:+918946000212" className="btn-outline" style={{ fontSize: '0.8rem', padding: '0.6rem 1.25rem' }}>
-                  <i className="fas fa-phone"></i><span>+91 8946000212</span>
-                </a>
               </div>
             </div>
           </div>
